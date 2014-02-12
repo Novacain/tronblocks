@@ -890,7 +890,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:arrow 1",
+  output = "tronblocks:arrowr 1",
   recipe = {
   {"default:leaves",},
   {"tronblocks:arrowr_orange",}
@@ -904,7 +904,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:arrow 1",
+  output = "tronblocks:arrowr 1",
   recipe = {
   {"default:leaves",},
   {"tronblocks:arrowr_blue",}
@@ -1261,9 +1261,57 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:line 1",
+  output = "tronblocks:parallelr 1",
   recipe = {
   {"tronblocks:parallel",}
+  }
+})
+minetest.register_craft({
+  output = "tronblocks:parallelr_orange 1",
+  recipe = {
+  {"dye:orange",},
+  {"tronblocks:parallelr",}
+  }
+})
+minetest.register_craft({
+  output = "tronblocks:parallelr 1",
+  recipe = {
+  {"default:leaves",},
+  {"tronblocks:parallelr_orange",}
+  }
+})
+minetest.register_craft({
+  output = "tronblocks:parallelr_blue 1",
+  recipe = {
+  {"dye:blue",},
+  {"tronblocks:parallelr",}
+  }
+})
+minetest.register_craft({
+  output = "tronblocks:parallelr 1",
+  recipe = {
+  {"default:leaves",},
+  {"tronblocks:parallelr_blue",}
+  }
+})
+minetest.register_craft({
+  output = "tronblocks:parallelr_green 1",
+  recipe = {
+  {"dye:green",},
+  {"tronblocks:parallelr",}
+  }
+})
+minetest.register_craft({
+  output = "tronblocks:parallelr 1",
+  recipe = {
+  {"default:leaves",},
+  {"tronblocks:parallelr_green",}
+  }
+})
+minetest.register_craft({
+  output = "tronblocks:line 1",
+  recipe = {
+  {"tronblocks:parallelr",}
   }
 })
 minetest.register_craft({
