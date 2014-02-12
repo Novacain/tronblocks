@@ -1023,7 +1023,7 @@ minetest.register_craft({
 minetest.register_craft({
   output = "tronblocks:x 1",
   recipe = {
-  {"tronblocks:arrow",}
+  {"tronblocks:cross",}
   }
 })
 minetest.register_craft({
