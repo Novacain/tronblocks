@@ -10,6 +10,7 @@ minetest.register_node("tronblocks:stone", {
   groups = {cracky=3,oddly_breakable_by_hand=2},
   light_source = 2,
   sounds = default.node_sound_wood_defaults(),
+  drop = "tronblocks:stone 2",
 })
 minetest.register_node("tronblocks:glow_box", {
   description = ("Tron Glow Box"),
@@ -779,7 +780,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:glow_box 2",
+  output = "tronblocks:glow_box 1",
   recipe = {
   {"default:torch",},
   {"tronblocks:stone",}
@@ -828,7 +829,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:arrow 2",
+  output = "tronblocks:arrow 1",
   recipe = {
   {"tronblocks:stone",}
   }
@@ -876,7 +877,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:arrowr 2",
+  output = "tronblocks:arrowr 1",
   recipe = {
   {"tronblocks:arrow",}
   }
@@ -924,7 +925,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:arrowl 2",
+  output = "tronblocks:arrowl 1",
   recipe = {
   {"tronblocks:arrowr",}
   }
@@ -972,7 +973,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:cross 2",
+  output = "tronblocks:cross 1",
   recipe = {
   {"tronblocks:arrowl",}
   }
@@ -1020,7 +1021,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:x 2",
+  output = "tronblocks:x 1",
   recipe = {
   {"tronblocks:arrow",}
   }
@@ -1068,7 +1069,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:tile 2",
+  output = "tronblocks:tile 1",
   recipe = {
   {"tronblocks:x",}
   }
@@ -1116,7 +1117,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:grid 2",
+  output = "tronblocks:grid 1",
   recipe = {
   {"tronblocks:tile",}
   }
@@ -1164,7 +1165,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:hyperbola 2",
+  output = "tronblocks:hyperbola 1",
   recipe = {
   {"tronblocks:grid",}
   }
@@ -1212,7 +1213,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:parallel 2",
+  output = "tronblocks:parallel 1",
   recipe = {
   {"tronblocks:hyperbola",}
   }
@@ -1260,7 +1261,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:line 2",
+  output = "tronblocks:line 1",
   recipe = {
   {"tronblocks:parallel",}
   }
@@ -1308,7 +1309,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:vline 2",
+  output = "tronblocks:vline 1",
   recipe = {
   {"tronblocks:line",}
   }
@@ -1356,7 +1357,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:diagonal 2",
+  output = "tronblocks:diagonal 1",
   recipe = {
   {"tronblocks:vline",}
   }
@@ -1404,13 +1405,13 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:stone 2",
+  output = "tronblocks:stone 1",
   recipe = {
   {"tronblocks:diagonal",}
   }
 })
 minetest.register_craft({
-  output = "tronblocks:one 2",
+  output = "tronblocks:one 1",
   recipe = {
   {"tronblocks:stone",},
   {"tronblocks:stone",}
@@ -1459,7 +1460,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:two 2",
+  output = "tronblocks:two 1",
   recipe = {
   {"tronblocks:one",}
   }
@@ -1507,7 +1508,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:three 2",
+  output = "tronblocks:three 1",
   recipe = {
   {"tronblocks:two",}
   }
@@ -1555,7 +1556,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:four 2",
+  output = "tronblocks:four 1",
   recipe = {
   {"tronblocks:three",}
   }
@@ -1603,7 +1604,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:five 2",
+  output = "tronblocks:five 1",
   recipe = {
   {"tronblocks:four",}
   }
@@ -1651,7 +1652,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:six 2",
+  output = "tronblocks:six 1",
   recipe = {
   {"tronblocks:five",}
   }
@@ -1699,7 +1700,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:seven 2",
+  output = "tronblocks:seven 1",
   recipe = {
   {"tronblocks:six",}
   }
@@ -1747,7 +1748,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:eight 2",
+  output = "tronblocks:eight 1",
   recipe = {
   {"tronblocks:seven",}
   }
@@ -1795,7 +1796,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:nine 2",
+  output = "tronblocks:nine 1",
   recipe = {
   {"tronblocks:eight",}
   }
@@ -1843,7 +1844,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:zero 2",
+  output = "tronblocks:zero 1",
   recipe = {
   {"tronblocks:nine",}
   }
@@ -1891,7 +1892,7 @@ minetest.register_craft({
   }
 })
 minetest.register_craft({
-  output = "tronblocks:stone 2",
+  output = "tronblocks:stone 1",
   recipe = {
   {"tronblocks:zero",}
   }
